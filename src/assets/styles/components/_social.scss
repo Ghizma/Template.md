@@ -1,0 +1,13 @@
+.social {
+    &__icon {
+        font-size: 3rem;
+        font-family: $iconFont;
+        letter-spacing: 5px;
+        text-decoration: none;
+        color: $white;
+
+        &:hover {
+            color: darken($white, 10%);
+        }
+    } 
+}
