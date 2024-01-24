@@ -1,4 +1,4 @@
-# My firs project uploaded to GitHub
+# My first project uploaded to GitHub
 This project is my work in creating a site with HTML, CSS, JS, SASS (SCSS), and UI Kit for him.
 
 I use ParcelJS, preprocessor SASS(SCSS).
