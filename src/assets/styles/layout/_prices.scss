@@ -1,0 +1,28 @@
+.prices {
+    @include section();
+    background-color: $white;
+    padding: 5rem 1.5rem;
+
+    &__title {
+        @include h2();
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media ($tablet) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: end;
+        }
+
+        .price {
+            margin: 2rem;
+        }
+
+    }
+
+}

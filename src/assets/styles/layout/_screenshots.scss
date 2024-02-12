@@ -1,0 +1,56 @@
+.screenshots {
+    @include section();
+    background-color: $white;
+    padding: 5rem 1.5rem;
+
+
+    &__wraper{
+        display: flex;
+        flex-direction: column-reverse;
+        
+        @media ($tablet) {
+            flex-direction: row;;
+            justify-content: space-between;
+        }
+        
+        @media ($desktop) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    &__title {
+        @include h2();
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        max-width: 1180px;
+        margin: 0 auto;
+        
+        .screenshot {
+            margin-bottom: 2.5rem;
+            
+            &:last-child {
+                margin-bottom: 0;
+            }
+            
+            @media ($desktop) {
+                flex-basis: calc(50% - 0.8rem);
+                margin-bottom: 0;
+                
+                &:nth-child(n + 3) {
+                    margin-top: 3rem;
+                }
+            }
+        }
+
+        @media ($desktop) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+}
+

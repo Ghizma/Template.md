@@ -47,7 +47,11 @@
     background-color: $bg;
     object-fit: cover;
     object-position: center;
+}
 
+@mixin section($pt: 5rem, $pb: 5rem) {
+     padding-top: $pt;
+     padding-bottom: $pb;
 }
 
 %input {
