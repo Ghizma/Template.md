@@ -1,9 +1,9 @@
-# Проект для вёрстки
-Данный проект является шаблонном для разработки и вертски веб-страниц и UI Kit к ним.
+# My first project uploaded to GitHub
+This project is my work in creating a site with HTML, CSS, JS, SASS (SCSS), and UI Kit for him.
 
-В проекте используется сборщик ParcelJS, препроцессор SASS(SCSS).
+I use ParcelJS, preprocessor SASS(SCSS).
 
-## Использование
+## For notes
 Скачайте или склонируйте данный репозиторий. Через терминал выполните команду `npm install` (должен быть установлен NodeJS).
 
 В директории `src` два html-файла. Index.html - для вёрстки макета, uikit.html - для создания UI Kit.
